@@ -84,6 +84,12 @@ function showWeatherReport(weather)
         document.querySelector("#img1").src = "small_images/fog.png";
         
     }
+    else if(weatherType.textContent == 'Mist') {
+    
+        document.body.style.backgroundImage = "url('images/fog.jpg')";
+        document.querySelector("#img1").src = "small_images/fog.png";
+        
+    }
 }
 
 // Date manage
